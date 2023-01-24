@@ -1,0 +1,8 @@
+﻿@{
+    ViewBag.Title = "About";
+}
+
+<div id="root"></div>
+
+@Scripts.Render("~/bundles/react")
+@Scripts.RenderFormat("<script data-plugins='transform-modules-umd' type='text/babel' data-presets='react' data-type='module' src='{0}' > </script>", "~/bundles/react_components")
